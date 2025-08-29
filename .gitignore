@@ -1,0 +1,32 @@
+# --- Python cache & compilés ---
+__pycache__/
+*.py[cod]
+
+# --- Conda / pip logs ---
+*.conda
+*.log
+*.lock
+
+# --- PyInstaller build ---
+/build/
+/dist/
+*.spec
+*.exe
+*.dll
+*.so
+
+# --- Résultats générés ---
+/results/
+/data/
+
+# --- Notebooks checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE / Editeur ---
+.vscode/
+.idea/
+*.iml
+
+# --- Fichiers système ---
+.DS_Store
+Thumbs.db
